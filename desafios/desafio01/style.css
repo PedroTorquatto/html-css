@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+*{
+    height:auto;
+}
+
+@font-face{
+    font-family: 'android';
+    src: url('../fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+}
+
+
+body{
+    background-color: rgba(136, 201, 136, 0.74);
+    margin: 0px;
+    font-family: var(--fonte-padrao);
+   
+}
+
+#cabeça{
+    margin: 0px;
+}
+
+:root{
+    --fonte-padrao: arial,verdana,helvetica,sans-serif;
+    --fonte-destaque: 'bebas neue', 'cursive';
+    --fonte-android: 'android', 'cursive';
+
+}
+
+header > h1{
+   
+    font-family: var(--fonte-destaque);
+}
+
+header{
+    background-image: linear-gradient(to bottom,rgb(117, 235, 117), rgb(6, 12, 6));
+    background-attachment: fixed;
+    text-align: center;
+    padding-top: 40px;
+    width: auto;
+    height: 200px;
+   background-color: lightgreen;
+   margin: 0px;
+}
+
+nav {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin: 0px;
+    background-color: rgb(96, 201, 96);
+}
+
+
+main {
+    padding: 20px;
+    width: 800px;
+    height: auto;
+    margin: auto;
+    background-color: white;
+   box-shadow: 0px 0px 3px 3px rgba(11, 88, 11, 0.432);
+   margin-bottom: 30px;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+}
+
