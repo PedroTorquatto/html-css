@@ -39,6 +39,7 @@ header{
     background-attachment: fixed;
     text-align: center;
     padding-top: 40px;
+    padding-bottom: 50px;
     width: auto;
     height: 200px;
    background-color: lightgreen;
@@ -50,7 +51,7 @@ nav {
     color: white;
     font-weight: bold;
     margin: 0px;
-    background-color: rgb(96, 201, 96);
+    background-color: rgb(78, 122, 78);
 }
 
 
@@ -66,3 +67,23 @@ main {
    border-bottom-right-radius: 10px;
 }
 
+footer {
+    width: auto;
+    height: 30px;
+    background-color: rgb(123, 167, 123);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;;
+    
+}
+nav :hover{
+    text-decoration: underline;
+    color: rgb(33, 85, 33);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    
+
+}
