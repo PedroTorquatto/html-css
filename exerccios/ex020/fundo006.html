@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         
     body {
@@ -13,10 +13,22 @@
     height: 100vh;
     background-size: cover;
     background-position: center center;
-background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+        /*
+        shorthad - backgorund
+        color > image > position > repeat > [size] > attachment
+        */
+
+       background-color: black url('imagens/wallpaper002.jpg') center center no-repeat fixed ;
+       background-size: cover; 
+
      }
+
+
      main {
-        width: 400px;
+        max-width: 400px;
         background-color: white;
         border: 1px solid black;
         border-radius: 15px;
